@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Now</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Weather Now</h1>
+        <p>Check the weather conditions quickly for any city</p>
+        
+        <div class="search-box">
+            <input type="text" id="city" placeholder="Enter city name..." />
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div id="weather-result" class="weather-result">
+            <h2 id="city-name"></h2>
+            <p id="weather-description"></p>
+            <p id="temperature"></p>
+            <p id="wind-speed"></p>
+        </div>
+
+        <div id="error-message" class="error-message"></div>
+    </div>
+
+    <script src="script.js"></script>
+ 
+</body>
+</html>
